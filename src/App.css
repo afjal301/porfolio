@@ -1,0 +1,458 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  user-select: contain;
+}
+header{
+  height:auto;
+  width: 100%;
+  background-color:white ;
+  color:rgb(28, 31, 31) ;
+  position: fixed;
+}
+.perso{
+  text-align: center;
+  height: auto;
+  width: 90%;
+  margin-left:5%;
+  margin-top: 7vh;
+}
+.perso h1{
+margin-top: 2vh;
+margin-bottom: 2vh;
+}
+.experience{
+  margin-top:5vh;
+  width: 100;
+  height: auto;
+  display:none !important;
+}
+.flex{
+  display: flex !important;
+  transition: 0.3s;
+}
+.show{
+  display:block !important;
+  transition: 1s;
+  animation: progress 3s,
+}
+h1{
+  text-align: center !important;
+}
+.experience div:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+.exp{
+  text-align:center;
+  margin-top: 5vh;
+  display: none;
+}
+.title {
+  text-align: center;
+  margin-top: 2vh;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reduct{
+  display: none;
+  margin-top: 2vh;
+}
+header div{
+  width: 15%;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+header div a{  
+  text-decoration: none;
+}
+a{
+  color: black !important;
+}
+.white{
+  color:white !important;
+  background-color: transparent;
+}
+.part{
+  height:auto;
+  width: 22%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+}
+.part img{
+  margin-top: 2vh;
+  width: 90%;
+  height: auto;
+ 
+}
+.color{
+  color: rgb(28, 31, 31);
+  text-align: center;
+}
+header hr{
+  width: 50%;
+  display: none;
+}
+.picture{
+  height:auto;
+  padding-top:50px;
+  width: 100%;
+  background-color: rgb(28, 31, 31);
+  color: white;
+  padding-bottom: 5vh;
+
+}
+.picture img{
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin-top: 10vh;
+  margin-bottom:3vh;
+  transform-style:unset;
+  animation:rotate 5s linear;
+}
+@keyframes rotate{
+  0%{
+    transform: perspective(200px) rotateY('0deg');
+    transition: 0.1s;
+    border:1px solid white
+  }
+  25%{
+    transform: perspective(1000px) rotateY('90deg');
+  }
+  50%{
+    transform: perspective(1000px) rotateY('180deg');
+  }
+  100%{
+    transform:perspective(1000px) rotateY('360deg');
+  }
+}
+.status h3{
+  margin-left: 1%;
+  margin-top: 4vh;
+  margin-bottom: 2vh;
+}
+.social{
+position: fixed;
+height:auto;
+width:auto;
+padding: 2%;
+border-radius: 10px;
+margin-top: 100px;
+margin-left:1%;
+margin-right: 1%;
+
+background-color:rgb(28, 31, 31);
+}
+.social div{
+  margin-top: 4vh;
+  animation: clair  10s;
+}
+@keyframes clair{
+  0%{
+    opacity: 0;
+  }
+  25%{
+    opacity: 0.25;
+  }
+  50%{
+    opacity:1
+  }
+  100%{
+    opacity:1
+  }
+}
+.change{
+  color: white ;
+  background-color:rgb(28, 31, 31);
+  transition: 0.3s;
+}
+.shadow{
+  box-shadow: 0px 0px 7px rgb(28, 31, 31);
+}
+.name{
+  font-weight: 30;
+  text-align: center;
+}
+.personality{
+  height: auto;
+  color: white;
+  width: 100%;
+  margin-top: 20px;
+}
+.clickanime{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  z-index: 80000;
+  position: absolute;
+  transform: scale(0);
+  transform: origin center;
+  background: linear-gradient(to top, rgb(28, 31, 31) ,white);
+  animation: clickanime 1s ease-in-out;
+}
+@keyframes clickanime{
+  0%{
+    transform: scale(0);
+
+  }
+ 
+  50%{
+    transform: scale(1);
+    opacity: 1;
+  }
+  0%{
+    transform: scale(0);
+    opacity: 0;
+  }
+  
+}
+.description{
+  margin-top:3%;
+  height: auto;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  background-color:rgb(28, 31, 31);
+  color: white;
+  text-align: center;
+  display: none;
+}
+.personality div {
+  width: 30%;
+  margin-top: 2%;
+  margin-left: 10%;
+  text-align: justify;
+}
+.know{
+  padding-top: 5vh;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 30vh;
+  height:auto !important;
+  text-align: center;
+  display: none;
+
+}
+.knowledge{
+  display: none;
+}
+.know + div {
+  height:1vh;
+}
+.knowledge div{
+  width: 20%;
+  height:auto;
+  padding-top: 5vh;
+  margin-left: 4%;
+  margin-right: 4%;
+  text-align: center;
+  padding-bottom: 5vh;
+  
+}
+h1{
+  text-align: center;
+}
+.contact{
+  height:auto !important;
+  width: 100%;
+  background-color:rgb(28, 31, 31);
+  color: white;
+  padding-top: 3vh;
+  text-align: center;
+  padding-bottom: 3vh;
+  display: inherit;
+}
+
+.contact div{
+
+  height:auto;
+  background: rgb(28, 31, 31);
+}
+.half{
+  width:40%;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: auto;
+}
+.half img{
+  width:100%;
+}
+.send{
+  height: 5vh;
+  width: 80%;
+  margin-top: 5vh;
+  border-radius: 0px;
+  border: none;
+  margin-top: 7vh;
+}
+.lab{
+  margin-top:20vh;
+}
+input{
+  width: 80%;
+  height: 5vh;
+  border: none;
+  background-color: transparent;
+  color: white;
+  border-bottom: 1px solid white;
+  text-align: center;
+  margin-top: 5vh;
+}
+.knowledge h1{
+  text-align: center;
+}
+.bar{
+  height: 1vh;
+  background-color:white;
+  border: 1px solid black;
+  border-radius: 5px;
+  
+}
+.stat {
+  height:10%;
+}
+.value{
+  height: 100%;
+  background-color: rgb(0, 255, 234);
+}
+.methode{
+  margin-bottom: 2vh;
+  width: 100%;
+  
+}
+.methode img{
+  width:20px;
+  height: 20px;
+  margin-right: 3%;
+}
+.language{
+  width:45%;
+  margin-top: 5vh;
+  height:auto;
+}
+.left{
+  float: left;
+}
+.right {
+  float: right;
+}
+.top{
+  padding-top: 5vh;
+  display: none;
+}
+#nav a{
+  text-align: center !important;
+}
+@media only screen and (max-width: 700px){
+  header div{
+    width: 20%;
+  }
+
+}
+@media only screen and (max-width:413px){
+  ge{
+    display: inline;
+  }
+  .knowledge div{
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 2%;
+  }
+  .knowledge{
+    display: inline !important;
+  }
+}
+@media only screen and (max-width: 576px){
+  .status{
+    display: inline;
+    text-align: center;
+  }
+
+}
+@media only screen and (max-width: 500px){
+  header div{
+    width: 25%;
+  }
+
+}
+@media only screen and (max-width: 600px){
+ .personality {
+  display: inline;
+ }
+ .personality + div{
+  width: 50%;
+  margin-left:50% !important;
+  margin-top: 50px;
+  display: inline;
+  
+ }
+
+}
+@media only screen and (max-width: 600px){
+ .control{
+  display: none;
+ }
+ .part{
+  width: 30%;
+ }
+ .half{
+  width: 90%;
+ }
+ .language{
+  float: none;
+  width: 90%;
+  margin-left: 5%;
+ }
+ .right{
+  float: none
+ }
+ .ai{
+  display: none !important;
+ }
+ .know{
+  margin-bottom: 5vh;
+ }
+
+}
+@media only screen and (min-width:400px){
+  .nav{
+    display: flex !important;
+  }
+}
+@media only screen and (max-width: 400px){
+ .experience{
+  display: inline;
+ }
+ .part{
+  width: 80%;
+  margin-left: 10%;
+ }
+ .nav{
+  display: none;
+ }
+ 
+ }
+@media only screen and (max-width: 400px){
+ header{
+  display: inline !important;
+
+ }
+
+ header div{
+  width: 100%;
+  text-align: center;
+ }
+  .reduct {
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+ 
+
+}
