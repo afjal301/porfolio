@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/afjal301/porfolio/static/css/main.bae2bce0.css",
+    "main.js": "/afjal301/porfolio/static/js/main.0cdf03c2.js",
+    "static/js/787.5714e848.chunk.js": "/afjal301/porfolio/static/js/787.5714e848.chunk.js",
+    "static/media/me.JPG": "/afjal301/porfolio/static/media/me.f1cc094681abf2b2b878.JPG",
+    "static/media/picture2.jpg": "/afjal301/porfolio/static/media/picture2.90d8b371d3124a649638.jpg",
+    "static/media/picture.jpg": "/afjal301/porfolio/static/media/picture.2c4f1698045e78021098.jpg",
+    "static/media/ask.png": "/afjal301/porfolio/static/media/ask.48573ae252f615d8334a.png",
+    "static/media/facebook.ico": "/afjal301/porfolio/static/media/facebook.5fa649bb4c70b547cd3b.ico",
+    "static/media/github.ico": "/afjal301/porfolio/static/media/github.9606e9dbe04b263a9832.ico",
+    "static/media/gmail.ico": "/afjal301/porfolio/static/media/gmail.db59c5a220ee4b7000cd.ico",
+    "static/media/linkedin.ico": "/afjal301/porfolio/static/media/linkedin.84fadadd6531bb836737.ico",
+    "static/media/reduct2.ico": "/afjal301/porfolio/static/media/reduct2.9479afcab623f4ec8eae.ico",
+    "static/media/logo.svg": "/afjal301/porfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/afjal301/porfolio/index.html",
+    "main.bae2bce0.css.map": "/afjal301/porfolio/static/css/main.bae2bce0.css.map",
+    "main.0cdf03c2.js.map": "/afjal301/porfolio/static/js/main.0cdf03c2.js.map",
+    "787.5714e848.chunk.js.map": "/afjal301/porfolio/static/js/787.5714e848.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bae2bce0.css",
+    "static/js/main.0cdf03c2.js"
+  ]
+}
